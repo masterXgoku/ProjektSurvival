@@ -13,7 +13,7 @@ EspServer esp_server;
 //Anbindung des LED Displays mit Hilfe von "MaxMatrix.h"-Bibliothek
 int data = 8;
 int load = 9;
-int uhr = 10;            //Eigentlich "clock", aber der Name war schon in time.h vergeben (beachte auch Zeile 47!)
+int uhr = 10;
 int maxInUse = 1;
 
 //Anbindung des Joysticks
