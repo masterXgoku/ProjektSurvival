@@ -10,7 +10,7 @@
 SoftwareSerial esp_serial(11, 12);
 EspServer esp_server;
 
-//Anbindung des LED Displays mit Hilfe von "MaxMatrix.h"-Bibliothek
+//Anbindung des LED Displays mit Hilfe der "MaxMatrix.h"-Bibliothek
 int data = 8;
 int load = 9;
 int uhr = 10;
@@ -214,6 +214,7 @@ void lachendesGesicht() {
   m.setDot(5, 6, HIGH);
   m.setDot(6, 5, HIGH);
 }
+
 void ausmachenLichter() {
   //Mit einer doppelten for-Schleife werden alle LEDs ausgeschaltet
   for (int i = 0; i < 8; i++) {
